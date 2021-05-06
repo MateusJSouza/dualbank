@@ -27,15 +27,20 @@
 }
 
 .headerContainer {
-  padding: 1.563rem 0.813rem;
+  max-width: 1920px;
+  padding: 0.3rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   position: relative;
   
-  img:first-child {
+  .logo {
     padding: 0.813rem 1.563rem;
+  }
+
+  .logo {
+    border-right: 1px solid #E5E4E2;
   }
 
   .navbar {
@@ -132,16 +137,23 @@
         top: 35%;
         right: 9%;
       }
-    }
 
-    .inputSearch {
-      padding: 1.25rem;
+      .inputSearch {
+        height: 1.7rem;
+        padding: 1.25rem 1rem;
+      }
     }
 
     .icons {
       display: flex;
       flex-direction: row;
       align-items: center;
+
+      padding: 0 1.188rem;
+
+      .iconText, .iconCalendar, .iconBell {
+        padding: 0 0.625rem;
+      }
     }
 
     .circle {
@@ -150,13 +162,9 @@
       width: 3.125rem;
       height: 3.125rem;
       border-radius: 5rem;
-      border-style: inset;
-      border-color: #172765;
-    }
+      border: 1px solid #172765;
 
-    .circle img {
-      width: 7rem;
-
+      margin-right: 1rem;
     }
   }
 }

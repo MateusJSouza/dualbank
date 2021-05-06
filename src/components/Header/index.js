@@ -13,7 +13,7 @@ export function Header() {
     <>
       <div className={styles.headerContainer}>
         <div className={styles.navbar}>
-          <img src={logoImg} alt="dualbank" />
+          <img src={logoImg} className={styles.logo} alt="dualbank" />
 
           <div className={styles.infos}>
             <div className={styles.infoAccount}>
@@ -53,9 +53,21 @@ export function Header() {
           </div>
 
           <div className={styles.icons}>
-            <img src={chatText} alt="Chat text" />
-            <img src={calendar} alt="Calendar" />
-            <img src={bell} alt="Bell" />
+            <img
+              src={chatText}
+              className={styles.iconText}
+              alt="Chat text"
+            />
+            <img
+              src={calendar}
+              alt="Calendar"
+              className={styles.iconCalendar}
+            />
+            <img
+              src={bell}
+              alt="Bell"
+              className={styles.iconBell}  
+            />
           </div>
 
           <div className={styles.circle}></div>
