@@ -1,12 +1,13 @@
 .container {
   max-width: 2.875rem;
   width: 100%;
+  display: flex;
+  flex-direction: row;
 
-  ul {
+  .icons {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     list-style-type: none;
 
     li {
@@ -24,6 +25,63 @@
     
     li:nth-child(3) {
       border-top-right-radius: 1rem;
+    }
+  }
+
+  .submenu {
+    max-width: 1320px;
+    height: 100vh;
+    background: #F9F9F9;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+
+    .tag {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #FFFFFF 0%, #E5E4E2 100%);
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 5rem;
+    }
+
+    .add {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #FFFFFF 0%, #E5E4E2 100%);
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 5rem;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    .cards {
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 5rem;
+      background: linear-gradient(89.96deg, #622EE5 0.06%, #172765 99.94%);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #paragraph {
+        margin-top: 0.5rem;
+        color: white;
+      }
+
+      .principal {
+        display: flex;
+        flex-direction: row;
+
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 5rem;
+      }
     }
   }
 }
