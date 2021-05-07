@@ -129,6 +129,11 @@
     align-items: center;
     justify-content: flex-end;
 
+    input {
+      border: 0.5px solid #778899;
+      border-radius: 0.313rem;
+    }
+
     .input {
       position: relative;
       

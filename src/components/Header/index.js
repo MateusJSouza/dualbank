@@ -6,6 +6,7 @@ import search from '../../assets/search.svg'
 import chatText from '../../assets/chatText.svg'
 import bell from '../../assets/bell.svg'
 import calendar from '../../assets/calendar.svg'
+
 import styles from './styles.module.scss'
 
 export function Header() {

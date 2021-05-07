@@ -117,6 +117,10 @@
       .total {
         margin-left: 3rem;
         display: flex;
+
+        p {
+          font-size: 0.875rem;
+        }
       }
 
       .subtotal {
@@ -139,11 +143,15 @@
     }
 
     .infoRent {
-      margin-left: 2rem;
+      margin-left: 4rem;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       padding: 1.125rem 0 1.063rem 0;
+
+      p {
+        font-size: 0.875rem;
+      }
 
       .paragraphTwo {
         display: flex;
@@ -174,10 +182,6 @@
         margin-left: 0.625rem;
       }
   
-      p {
-        font-size: 0.75rem;
-      }
-  
       span {
         color: #69D531;
         margin-top: 2px;
@@ -186,7 +190,7 @@
     }
 
     .infoAlimentation {
-      margin-left: 2rem;
+      margin-left: 4rem;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -211,6 +215,10 @@
       .alimentation {
         margin-left: 3rem;
         display: flex;
+
+        p {
+          font-size: 0.875rem;
+        }
       }
 
       .alimentationTotal {
