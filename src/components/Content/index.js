@@ -6,19 +6,24 @@ import styles from './styles.module.scss'
 
 export function Content() {
   return (
-    <div className={styles.title}>
-      <p>Saldo Bancário</p>
+    <>
+      <div className={styles.container}>
+        <p className={styles.paragraph}>Saldo Bancário</p>
 
-      <div>
-        <img src={printer} alt="Printer" />
+        <div className={styles.title}>
+
+          <div className={styles.printer}>
+            <img src={printer} className={styles.miniPrinter} alt="Printer" />
+          </div>
+
+          <div className={styles.downloadFile}>
+            <img src={downloadFile} className={styles.miniDownloadFile} alt="Download file" />
+          </div>
+          <div className={styles.share}>
+            <img src={share} className={styles.miniShare} alt="Share" />
+          </div>
+        </div>
       </div>
-        
-      <div>
-        <img src={downloadFile} alt="Download file" />
-      </div>
-      <div>
-        <img src={share} alt="Share" />
-      </div>
-    </div>
+    </>
   );
 }
