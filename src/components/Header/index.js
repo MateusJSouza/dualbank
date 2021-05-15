@@ -45,7 +45,7 @@ export function Header() {
         <div className={styles.search}>
           <div className={styles.input}>
             <input
-              placeholder="Pesquisa"
+              placeholder="Pesquisar"
               className={styles.inputSearch}
               type="text"
             />

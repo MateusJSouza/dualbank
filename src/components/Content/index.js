@@ -29,30 +29,32 @@ export function Content() {
         </div>
       </div>
 
-      <div className={styles.balance}>
-        <div className={styles.inputField}>
-          <p>Data do Saldo</p>
-          <span>07/12/2020</span>
+      <div className={styles.content}>
+        <div className={styles.balance}>
+          <div className={styles.inputField}>
+            <p>Data do Saldo</p>
+            <span>07/12/2020</span>
 
-          <img src={caretDown} alt="Carets down icon" />
+            <img src={caretDown} alt="Carets down icon" />
+          </div>
         </div>
-      </div>
 
-      <div className={styles.balanceAtualized}>
-        <p>Saldo atualizado às 16:48</p>
+        <div className={styles.balanceAtualized}>
+          <p>Saldo atualizado às 16:48</p>
 
-        <img src={refresh} alt="Refresh icon" />
-      </div>
+          <img src={refresh} alt="Refresh icon" />
+        </div>
 
-      <div className={styles.balanceAvailable}>
-        <img src={shield} className={styles.shield}  alt="Shield icon" />
+        <div className={styles.balanceAvailable}>
+          <img src={shield} className={styles.shield} alt="Shield icon" />
 
-        <div className={styles.inputBalance}>
+          <div className={styles.inputBalance}>
 
-          <p>Saldo disponível</p>
-          <span>R$40.000,00</span>
+            <p>Saldo disponível</p>
+            <span>R$40.000,00</span>
 
-          <img src={eye} alt="Carets down icon" />
+            <img src={eye} alt="Carets down icon" />
+          </div>
         </div>
       </div>
     </>
